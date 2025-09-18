@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> HTML FORM </h1>
+    <p>An HTML form is a part of a webpage where users can enter information (like name, email, password, etc.) and send it to a server.</p>
+    <p>Example: Login page, Signup form, Search box, Contact form.</p>
+     
+    <hr>
+    <ol>
+        
+    <h2>Common Tags used in Forms </h2>
+    <li><h3>Form Tag</h3></li>
+    <p>The form tag is used to collect user input and send it to a server for processing.</p>
+    <p>Example: Login page, Signup form, Search box, Feedback form.</p>
+    <p>Example:</p>
+    <img src="https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/code-explanation-form-tag-in-html.png" height="300">
+    <h4>Output for form tag</h4>
+    <img src="https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/output-form-tag-in-html.png" width="500">
+
+    
+    <li><h3>Input Tag</h3></li>
+    <p>It is used inside a form to take input from the user </p>
+    <p>such as text,password,email,number,radio button,checkbox etc.</p>
+    <h4>Example:</h4>
+    <img src="https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/code-explanation-input-tag-in-html.png" height="400">
+    <h4>Output:</h4>
+    <img src="https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/output-input-tag-in-html.png" width="500">
+
+
+
+    <li><h3>Label Tag</h3></li>
+    <p>This tag is used to define a label (name/title) for an input field</p>
+    <h4>Example</h4>
+    <img src="https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/code-explanation-label-tag-in-html.png" height="400">
+    <h4>Output:</h4>
+    <img src="https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/output-label-tag-in-html.png">
+    
+    
+    
+    <li><h3>Textarea tag</h3></li>
+    <p>This tag is used in a form to create a multi-line text input box, where users can type long text like comments, messages, or feedback</p>
+    <h4>Example</h4>
+    <img src="https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/code-explanation-textarea-tag-in-html.png" height="400" width="500">
+    <h4>Output</h4>
+    <img src="https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/output-textarea-tag-in-html.png"width="500">
+    
+    
+    
+    <li><h3> Select tag</h3></li>
+    <p>It is used to create a drop down list in a form which means choosing one option or multiple options</p>
+    <h4>Example</h4>
+    <img src="https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/code-explanation-select-tag-in-html.png" height="400" width="500">
+    <h4>Output</h4>
+    <img src="https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/output-select-tag-in-html.png">
+    
+    
+    
+    <li><h3>Option Tag</h3></li>
+    <p>It is always used inside select to define choices in a dropdoen list.</p>
+    <h4>Example:</h4>
+    <img src="https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/code-explanation-option-tag-in-html.png" width="500" height="200">
+    
+    
+    
+    
+    <li><h3>Button Tag</h3></li>
+    <p>It defines a clickable button on webpage such as submit and reset.</p>
+    <h4>Example:</h4>
+    <img src="https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/code-explanation-button-tag-in-html.png" height="300" width="700">
+    </ol>
+    
+    <hr>
+    <h2>Here is a sample output for the registration form !!!!</h2>
+
+    <h1> UNIVERSITY REGISTRATION FORM </h1>
+    
+    <p>Please fill out the form below to register.</p>
+    <hr>
+    <form>
+
+        <h2>Personal Details</h2>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="e.g: Shagun">
+        <br><br>
+        <label for="last name">Last Name:</label>
+        <input type="text" name="last name" id="last name" placeholder="Rawat ">
+        <br><br>
+        <label for="DOB">DOB:</label>
+        <input type="date" name="DOB" id="DOB" placeholder="">
+        <br><br>
+        <label>Gender:</label>
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="gender" value="male">
+        
+        <label for="Female">Female</label>
+        <input type="radio" name="Female" id="Female" value="Female">
+
+        <label for="Other">Other</label>
+        <input type="radio" name="other" id="other" value="other">
+
+        <h3>Upload Your Photo</h3>
+        <input type="file" name="file">
+
+        <hr>
+
+        <h2>Contact Information</h2>
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" placeholder="abc_123@gmail.com">
+        <br><br>
+        <label for="Phone Number">Phone Number:</label>
+        <input type="telephone" name="Phone" id="phone" placeholder="1234567891">
+        <br><br>
+        <label for="Mailing Address">Mailing Address</label>
+        <textarea name="Mailing Address" id="Mailing Address" placeholder=""></textarea>
+        <br><br>
+
+        <hr>
+
+        <h2>Academic Information</h2>
+        <label for="course">Select your course:</label>
+        <select name="course" id="course">
+            <option value="CSE">CSE</option>
+            <option value="CSE-AIML">CSE-AIML</option>
+            <option value="CSE-DS">CSE-DS</option>
+            <option value="CS">CS</option>
+            <option value="ME">ME</option>
+            
+        </select>
+        <hr>
+
+        <h3>Extra Cirricular Activities</h3>
+        <label for="Extra Cirricular Activities">Extra Cirricular Interests:</label>
+        <lable for="sports">Sports</lable>
+        <input type="checkbox" name="Interests" id="sports">
+        <label for="Music & Arts">Music & Arts</label>
+        <input type="checkbox" name="Interests" id="Music & Arts ">
+        <label for="Technology Club">Technology Club</label>
+        <input type="checkbox" name="Interests" id="Technology Club">
+        <label for="Volunteering ">Volunteering</label>
+        <input type="checkbox" name="Interests" id="Volunteering">
+        <br><br>
+
+        <hr>
+        <h2>Create your Account</h2>
+        <label for="pass">Create Password</label>
+        <input type="password" name="password " id="pass">
+        <br><br>
+        <label for="Security Question">Security Question</label>
+        <select input type="option" name="Security Question" id="Security Question" placeholder="What was your first pert's name?"></select>
+        <br><br>
+        <label for="Security Answer">Security Answer:</label>
+        <input type="text" name="Security Answer" >
+        <br>
+        <label>I agree to the Terms and Conditions.</label>
+        <input type="checkbox"> 
+
+        <hr>
+
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+    </form>
+
+</body>
+</html>
